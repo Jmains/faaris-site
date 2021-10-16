@@ -1,0 +1,17 @@
+.copyright {
+  background-color: hsl(229, 15%, 6%);
+  padding: 1.25rem 0;
+}
+
+.copyright__text {
+  font-size: 0.8rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.658);
+}
+
+@media only screen and (min-width: 768px) {
+  .copyright__text {
+    font-size: 0.9rem;
+    text-align: left;
+  }
+}

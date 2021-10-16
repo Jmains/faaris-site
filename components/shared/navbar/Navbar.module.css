@@ -1,0 +1,258 @@
+.stickyTop {
+  position: sticky;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 62px;
+  background-color: transparent;
+  z-index: 100;
+  transition-property: box-shadow, background-color;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in;
+  padding-top: 0.5rem;
+}
+
+.scrolled {
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.178);
+  background-color: #dddddd;
+}
+
+.nav {
+  display: flex;
+  padding: 0.15rem 1.25rem;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.nav__dropdownExit {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.95);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+  cursor: default;
+}
+
+.nav__logo {
+  display: inline-block;
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.scrolled .nav__logo {
+  color: rgb(12, 12, 12);
+}
+
+.navToggle {
+  cursor: pointer;
+  border: 0;
+  width: 3em;
+  height: 3em;
+  padding: 0em;
+  transition: opacity 250ms ease;
+  background: transparent;
+}
+
+.nav__listContainer {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  top: 13rem;
+  left: 1.25rem;
+  right: 1.25rem;
+  border-radius: 10px;
+  margin: 0;
+  padding: 2rem;
+  text-align: center;
+  transition-property: opacity;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in;
+}
+
+.navVisible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.nav__listPri {
+  display: block;
+}
+
+.nav__item + .nav__item {
+  margin-top: 1.5rem;
+}
+
+.nav__link {
+  display: block;
+  color: rgb(182, 182, 182);
+  font-weight: 400;
+  font-size: 1.5rem;
+  transition-property: color;
+  transition-duration: 150ms;
+  transition-timing-function: ease-in-out;
+  text-transform: uppercase;
+}
+
+.activeLink {
+  color: var(--pri-btnColor);
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  color: var(--pri-btnColor);
+  cursor: pointer;
+}
+
+/* HAMBURGER STYLES */
+
+.hamburger {
+  width: 60%;
+  position: relative;
+  transition-property: height;
+  transition-duration: 200ms;
+  transition-timing-function: cubic-bezier(0.63, 0.09, 0.385, 0.88);
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  display: block;
+  margin: 0 auto;
+  height: 2px;
+  background-color: rgb(223, 223, 223);
+}
+
+.scrolled .hamburger,
+.scrolled .hamburger::before,
+.scrolled .hamburger::after {
+  background-color: black;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: "";
+  width: 100%;
+  transition-property: transform;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.63, 0.09, 0.385, 0.88);
+}
+
+.hamburger::before {
+  transform: translateY(-9px);
+}
+
+.hamburger::after {
+  transform: translateY(6px);
+}
+
+/* hamburger toggled */
+
+.hamburgerToggled::before {
+  transform: rotate(45deg);
+}
+
+.hamburgerToggled::after {
+  transform: translateY(-2.5px) rotate(-45deg);
+}
+
+.hamburgerToggled {
+  height: 0;
+}
+
+.hamburgerToggled.hamburger,
+.hamburgerToggled.hamburger::before,
+.hamburgerToggled.hamburger::after {
+  background-color: rgb(223, 223, 223);
+}
+
+/* END HAMBURGER STYLES */
+
+@media only screen and (min-width: 700px) {
+  .stickyTop {
+    padding-top: 0;
+  }
+
+  .nav {
+    text-align: center;
+    display: block;
+  }
+
+  .scrolled .nav__logo {
+    display: none;
+    visibility: hidden;
+  }
+
+  .scrolled {
+    background-color: #dddddd;
+  }
+
+  .nav__dropdownExit {
+    display: none;
+    visibility: hidden;
+  }
+
+  .navToggle {
+    display: none;
+    visibility: hidden;
+  }
+
+  .nav__listContainer {
+    position: static;
+    display: flex;
+    align-items: center;
+    visibility: visible;
+    background: transparent;
+    border-radius: 0;
+    opacity: 1;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    /* margin-left: 3.5rem; */
+    padding: 0;
+    text-align: center;
+    list-style: none;
+  }
+
+  .nav__listPri {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0.95rem 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .scrolled .nav__listPri {
+    border: none;
+  }
+
+  .nav__item + .nav__item {
+    margin: 0;
+    margin-left: 3rem;
+  }
+
+  .nav__link {
+    color: rgb(173, 173, 173);
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .scrolled .nav__link {
+    color: rgb(12, 12, 12);
+  }
+
+  .nav__link:hover,
+  .nav__link:focus {
+    color: var(--pri-btnColor);
+  }
+
+  .scrolled .activeLink {
+    color: var(--pri-btnColor);
+  }
+}

@@ -1,16 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css");
+
 html,
 body {
+  font-size: 16px;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-light);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --pri-nav-bg: hsl(229, 15%, 12%);
+  --pri-accent-text: hsl(219 100% 83%);
+
+  --text-heading: hsl(0 0% 10%);
+  --text-subheading: hsl(0 0% 38%);
+
+  --pri-btnColor: hsl(349, 100%, 66%);
+
+  --sec-red: hsl(0, 87%, 67%);
+  --bg-light: hsl(226, 45%, 94%);
+
+  --desktop-breakpoint: 1200px;
+}
+
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: var(--desktop-breakpoint);
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+button {
+  border: none;
+  cursor: pointer;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+  border: none;
 }
 
-* {
-  box-sizing: border-box;
+.slick-slide {
+  opacity: 0.5;
+  padding: 10px;
+  transition-property: opacity;
+  transition-duration: 250ms ease;
+  position: relative;
+}
+
+.slick-list {
+  margin: 0px -10px;
+  overflow: visible;
+}
+
+.slick-active {
+  opacity: 1;
+}
+
+/* .center {
+  margin: 0 auto;
+} */
+
+.slick-dots li button::before {
+  font-size: 11px;
+  line-height: 20px;
+  position: absolute;
+  top: 2rem;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: "•";
+  opacity: 0.4;
+  text-align: center;
+  color: white;
+}
+
+.slick-dots li.slick-active button::before {
+  color: white;
 }

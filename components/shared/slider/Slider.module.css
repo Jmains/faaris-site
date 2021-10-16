@@ -1,0 +1,9 @@
+.slider__container {
+  height: 26rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .slider__container {
+    overflow-x: hidden;
+  }
+}
