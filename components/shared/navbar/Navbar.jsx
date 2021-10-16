@@ -146,17 +146,44 @@ export default function Navbar() {
               </span>
             </li>
             <li className={s.nav__item}>
-              <span role="menuitem" className={s.nav__link} href="/" tabIndex="0">
+              <span
+                onClick={() => {
+                  scrollToElement("discoSection");
+                  handleNavToggle();
+                }}
+                role="menuitem"
+                className={s.nav__link}
+                href="/"
+                tabIndex="0"
+              >
                 Tour
               </span>
             </li>
             <li className={s.nav__item}>
-              <span role="menuitem" className={s.nav__link} href="/" tabIndex="0">
+              <span
+                onClick={() => {
+                  scrollToElement("discoSection");
+                  handleNavToggle();
+                }}
+                role="menuitem"
+                className={s.nav__link}
+                href="/"
+                tabIndex="0"
+              >
                 Videos
               </span>
             </li>
             <li className={s.nav__item}>
-              <span role="menuitem" className={s.nav__link} href="/" tabIndex="0">
+              <span
+                onClick={() => {
+                  scrollToElement("discoSection");
+                  handleNavToggle();
+                }}
+                role="menuitem"
+                className={s.nav__link}
+                href="/"
+                tabIndex="0"
+              >
                 Contact
               </span>
             </li>
