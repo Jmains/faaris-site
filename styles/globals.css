@@ -28,8 +28,7 @@ body {
 
   --pri-btnColor: hsl(349, 100%, 66%);
 
-  --sec-red: hsl(0, 87%, 67%);
-  --bg-light: hsl(226, 45%, 94%);
+  --bg-light: #ebebeb;
 
   --desktop-breakpoint: 1200px;
 }

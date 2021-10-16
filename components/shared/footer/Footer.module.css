@@ -1,5 +1,5 @@
 .footer {
-  background: #dddddd;
+  background: var(--bg-light);
   padding: 3rem 0;
   padding-top: 1rem;
 }

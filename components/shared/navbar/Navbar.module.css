@@ -14,7 +14,7 @@
 
 .scrolled {
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.178);
-  background-color: #dddddd;
+  background-color: var(--bg-light);
 }
 
 .nav {
@@ -188,7 +188,7 @@
   }
 
   .scrolled {
-    background-color: #dddddd;
+    background-color: var(--bg-light);
   }
 
   .nav__dropdownExit {
@@ -223,7 +223,7 @@
     justify-content: center;
     margin: 0 auto;
     width: 100%;
-    padding: 0.95rem 0;
+    padding: 1.1rem 0;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   }
