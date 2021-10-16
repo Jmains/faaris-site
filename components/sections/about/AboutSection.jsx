@@ -20,7 +20,7 @@ export default function AboutSection() {
           <div
             role="img"
             className={s.about__img}
-            src="/aboutImg.jpg"
+            src="/aboutImg.JPG"
             alt="faaris sitting down"
           />
         </div>

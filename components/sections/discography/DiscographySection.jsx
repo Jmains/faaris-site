@@ -21,7 +21,7 @@ export default function DiscographySection() {
 
 const songs = [
   {
-    img: "/PresidentialCover.jpg",
+    img: "/PresidentialCover.JPG",
     author: "Faaris",
     title: "Presidential",
     alt: "Presidential",
@@ -52,7 +52,7 @@ const songs = [
     alt: "Level Up",
   },
   {
-    img: "/HellOutThereCover.jpg",
+    img: "/HellOutThereCover.JPG",
     author: "Faaris",
     title: "Hell Out There",
     alt: "Hell Out There",
