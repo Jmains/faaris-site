@@ -12,7 +12,7 @@ body {
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--bg-light);
+  background-color: #0b0b0b;
 }
 
 * {
@@ -22,11 +22,10 @@ body {
 :root {
   --pri-nav-bg: hsl(229, 15%, 12%);
   --pri-accent-text: hsl(219 100% 83%);
+  --pri-btnColor: hsl(349, 100%, 66%);
 
   --text-heading: hsl(0 0% 10%);
   --text-subheading: hsl(0 0% 38%);
-
-  --pri-btnColor: hsl(349, 100%, 66%);
 
   --bg-light: #ebebeb;
 
@@ -84,10 +83,6 @@ a {
 .slick-active {
   opacity: 1;
 }
-
-/* .center {
-  margin: 0 auto;
-} */
 
 .slick-dots li button::before {
   font-size: 11px;

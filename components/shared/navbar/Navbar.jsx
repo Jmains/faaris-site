@@ -1,8 +1,6 @@
 import { useEffect, useRef, useState } from "react";
-// import cn from "classnames";
 import throttle from "lodash.throttle";
 import s from "./Navbar.module.css";
-import Link from "next/link";
 import { scrollToElement } from "../../../utils/scrollToElement";
 
 export default function Navbar() {

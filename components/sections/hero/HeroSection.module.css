@@ -1,7 +1,8 @@
 .hero {
   height: 100vh;
   width: 100%;
-  margin-top: -62px;
+  margin: 0 auto;
+  margin-top: -60px;
   background-image: linear-gradient(
       180deg,
       #000000 6.25%,
@@ -11,8 +12,8 @@
     url("/heroImg.jpg");
   background-size: cover;
   background-position: center center;
-  background-color: rgba(0, 0, 0, 0.65);
-  max-height: 58rem;
+  max-height: 55rem;
+  max-width: 1400px;
 }
 
 .socials {
@@ -112,6 +113,19 @@
   .socials {
     top: 12.5rem;
   }
+
+  .hero {
+    background-image: linear-gradient(360deg, #0b0b0b 1.36%, rgba(0, 0, 0, 0) 12.48%),
+      linear-gradient(90deg, #0b0b0b 2.15%, rgba(0, 0, 0, 0.205) 20.24%, #0b0b0b2a 35%),
+      linear-gradient(180deg, #0b0b0b 3.25%, rgba(0, 0, 0, 0.329) 20.21%, #0b0b0b2d 25%),
+      linear-gradient(
+        270deg,
+        #0b0b0b 3.38%,
+        rgba(0, 0, 0, 0.219) 20.3%,
+        rgba(0, 0, 0, 0.158) 25%
+      ),
+      url("/heroImg.jpg");
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -129,7 +143,7 @@
   }
 
   .hero__title {
-    font-size: 7.75rem;
+    font-size: 7rem;
     text-align: left;
     margin-left: -6px;
   }
@@ -142,11 +156,11 @@
   }
 
   .hero__button {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .hero__learnBtn {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .hero__spotifyStats {

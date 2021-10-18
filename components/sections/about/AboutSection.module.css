@@ -21,20 +21,28 @@
 }
 
 .about__description {
+  margin-top: 1rem;
   font-size: 1rem;
   font-weight: 400;
   color: rgb(180, 180, 180);
 }
 
 .about__img {
-  background-image: linear-gradient(180deg, #0b0b0b 0%, #0b0b0b 0.01%, rgba(0, 0, 0, 0) 20.83%),
-    linear-gradient(
-      89.83deg,
-      #0b0b0b 14.15%,
-      rgba(0, 0, 0, 0.56196) 43.24%,
-      rgba(0, 0, 0, 0) 99.84%
+  background-image: linear-gradient(
+      360deg,
+      #0b0b0b 1.15%,
+      rgba(10, 10, 10, 0.301) 15.24%,
+      rgba(0, 0, 0, 0) 25.84%
     ),
-    url("/aboutImg.JPG");
+    linear-gradient(180deg, #0b0b0b 0%, #0b0b0b 0.01%, rgba(0, 0, 0, 0) 15.83%),
+    linear-gradient(
+      90deg,
+      #0b0b0b 5.15%,
+      rgba(0, 0, 0, 0.56196) 18.24%,
+      rgba(0, 0, 0, 0) 30.84%
+    ),
+    linear-gradient(270deg, #0b0b0b 3.38%, rgba(0, 0, 0, 0.4) 15.3%, rgba(0, 0, 0, 0.007) 20%),
+    url("/aboutImg.jpg");
   background-size: cover;
   background-position: center center;
   object-fit: cover;
@@ -45,8 +53,19 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .about__title {
+    font-size: 3.5rem;
+  }
+
+  .about__description {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
   .about {
     background: linear-gradient(0deg, #0b0b0b, #0b0b0b),
+      linear-gradient(270deg, #0b0b0b 3.38%, rgba(0, 0, 0, 0.4) 15.3%, rgba(0, 0, 0, 0.44) 50%),
       linear-gradient(180deg, #0b0b0b 0%, rgba(196, 196, 196, 0) 100%);
     padding-top: 3rem;
   }
@@ -58,50 +77,53 @@
 
   .about__contentWrapper {
     padding-bottom: 3rem;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
   }
 
   .about__img {
+    grid-column: 6/13;
     background-image: linear-gradient(
-        180deg,
-        #0b0b0b 0%,
-        #0b0b0b 0.01%,
-        rgba(0, 0, 0, 0) 15.83%
+        360deg,
+        #0b0b0b 1.15%,
+        rgba(10, 10, 10, 0.301) 15.24%,
+        rgba(0, 0, 0, 0) 25.84%
       ),
+      linear-gradient(180deg, #0b0b0b 0%, #0b0b0b 0.01%, rgba(0, 0, 0, 0) 15.83%),
       linear-gradient(
         90deg,
         #0b0b0b 5.15%,
         rgba(0, 0, 0, 0.56196) 18.24%,
-        rgba(0, 0, 0, 0) 35.84%
+        rgba(0, 0, 0, 0) 30.84%
       ),
-      linear-gradient(270deg, #0b0b0b 3.38%, rgba(0, 0, 0, 0.4) 15.3%, rgba(0, 0, 0, 0.44) 50%),
+      linear-gradient(
+        270deg,
+        #0b0b0b 3.38%,
+        rgba(0, 0, 0, 0.4) 15.3%,
+        rgba(0, 0, 0, 0.007) 20%
+      ),
       url("/aboutImg.jpg");
     background-size: cover;
     background-position: center center;
-    max-width: 80%;
+    max-width: 100%;
     /* margin-top: -20rem; */
   }
 
   .about__textWrapper {
     text-align: left;
-    max-width: 20rem;
+    max-width: 30rem;
     margin: 0;
+    grid-column: 1/6;
   }
 
   .about__description {
-    margin-top: 3rem;
+    margin-top: 2rem;
     font-size: 1rem;
     font-weight: 400;
   }
 
   .about__img {
     width: 200rem;
-  }
-}
-
-@media only screen and (min-width: 1024px) {
-  .about__textWrapper {
-    max-width: 30rem;
   }
 }
 

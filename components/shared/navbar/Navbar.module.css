@@ -3,7 +3,7 @@
   left: 0;
   right: 0;
   top: 0;
-  height: 62px;
+  height: 60px;
   background-color: transparent;
   z-index: 100;
   transition-property: box-shadow, background-color;
@@ -178,14 +178,19 @@
   }
 
   .nav {
-    text-align: center;
-    display: block;
+    /* border: 2px solid red; */
+    justify-content: space-between;
   }
 
-  .scrolled .nav__logo {
+  /* .nav__logo {
     display: none;
     visibility: hidden;
   }
+
+  .scrolled .nav__logo {
+    display: block;
+    visibility: visible;
+  } */
 
   .scrolled {
     background-color: var(--bg-light);
@@ -202,6 +207,7 @@
   }
 
   .nav__listContainer {
+    /* border: 2px solid blue; */
     position: static;
     display: flex;
     align-items: center;
@@ -211,8 +217,6 @@
     opacity: 1;
     justify-content: space-between;
     width: 100%;
-    margin: 0 auto;
-    /* margin-left: 3.5rem; */
     padding: 0;
     text-align: center;
     list-style: none;
@@ -220,12 +224,10 @@
 
   .nav__listPri {
     display: flex;
-    justify-content: center;
-    margin: 0 auto;
+    justify-content: flex-end;
+
     width: 100%;
     padding: 1.1rem 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   }
 
   .scrolled .nav__listPri {

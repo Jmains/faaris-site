@@ -43,6 +43,7 @@
   height: 1.5rem;
   width: 1.5rem;
   cursor: pointer;
+  font-size: 0.9rem;
 }
 
 .footer__col_link:hover {
