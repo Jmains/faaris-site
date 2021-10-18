@@ -17,6 +17,7 @@ export default function AboutSection() {
               lyricism delivered over hard-hitting instrumentals.
             </p>
           </div>
+
           <div role="img" className={s.about__img} alt="faaris sitting down" />
         </div>
       </div>
