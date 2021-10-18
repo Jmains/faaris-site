@@ -15,7 +15,7 @@
   font-size: 2.75rem;
   font-weight: 700;
   text-align: center;
-  padding-top: 7rem;
+  padding-top: 3rem;
   background: linear-gradient(180deg, hsla(0, 0%, 100%, 1), hsla(0, 0%, 76%, 0.85));
   background-clip: text;
   color: transparent;
@@ -30,6 +30,7 @@
     padding-bottom: 5rem;
   }
   .disco__title {
+    padding-top: 6rem;
     font-size: 3.25rem;
   }
 }
