@@ -42,7 +42,7 @@
       rgba(0, 0, 0, 0) 30.84%
     ),
     linear-gradient(270deg, #0b0b0b 3.38%, rgba(0, 0, 0, 0.4) 15.3%, rgba(0, 0, 0, 0.007) 20%),
-    url("/aboutImg.jpg");
+    url("/aboutImg.JPG");
   background-size: cover;
   background-position: center center;
   object-fit: cover;
@@ -101,7 +101,7 @@
         rgba(0, 0, 0, 0.4) 15.3%,
         rgba(0, 0, 0, 0.007) 20%
       ),
-      url("/aboutImg.jpg");
+      url("/aboutImg.JPG");
     background-size: cover;
     background-position: center center;
     max-width: 100%;
