@@ -7,7 +7,7 @@ export default function HeroSection() {
       <div style={{ position: "relative" }} className="container">
         <div className={s.hero__contentContainer}>
           <h1 className={s.hero__title}>Faaris</h1>
-          <p className={s.hero__description}>Rapper & Lyricist</p>
+          <p className={s.hero__description}>Artist</p>
           <div className={s.hero__btnsContainer}>
             <a
               href="https://open.spotify.com/artist/2wi8Z4BaQWkxQ6W8u8Q6uq"

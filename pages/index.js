@@ -2,6 +2,7 @@ import { NextSeo } from "next-seo";
 import AboutSection from "../components/sections/about/AboutSection";
 import { DiscographySection } from "../components/sections/discography";
 import { HeroSection } from "../components/sections/hero";
+import { LatestRelease } from "../components/sections/latestRelease";
 
 export default function Home() {
   return (
@@ -46,6 +47,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head> */}
       <HeroSection />
+      {/* <LatestRelease /> */}
       <DiscographySection />
       <AboutSection />
     </div>
