@@ -9,38 +9,37 @@ export default function Home() {
     <div>
       <NextSeo
         title="Faaris Music"
-        description="Faaris music showcasing"
-        // canonical="https://www.easy-warrant.vercel.app/"
-        // openGraph={{
-        //   url: "https://www.easy-warrant.vercel.app/",
-        //   title: "Faaris Music",
-        //   description:
-        //     "Streamline the warranting process and take the waiting game out of the scenario.",
-        //   images: [
-        //     {
-        //       url: "https://easy-warrant.vercel.app/policeCar.jpg",
-        //       width: 800,
-        //       height: 600,
-        //       alt: "faaris",
-        //       type: "image/jpeg",
-        //     },
-        //     {
-        //       url: "https://easy-warrant.vercel.app/policeCar.jpg",
-        //       width: 900,
-        //       height: 800,
-        //       alt: "police car",
-        //       type: "image/jpeg",
-        //     },
-        //     { url: "https://easy-warrant.vercel.app/policeCar.jpg" },
-        //     { url: "https://easy-warrant.vercel.app/policeCar.jpg" },
-        //   ],
-        //   site_name: "Faaris Music",
-        // }}
-        // twitter={{
-        //   handle: "@handle",
-        //   site: "@site",
-        //   cardType: "summary_large_image",
-        // }}
+        description="I like to rap sometimes..."
+        canonical="https://www.faarismusic.com/"
+        openGraph={{
+          url: "https://www.faarismusic.com/",
+          title: "Faaris Music",
+          description: "I like to rap sometimes...",
+          images: [
+            {
+              url: "https://faarismusic.com/heroImg.jpg",
+              width: 800,
+              height: 600,
+              alt: "faaris",
+              type: "image/jpeg",
+            },
+            {
+              url: "https://faarismusic.com/heroImg.jpg",
+              width: 900,
+              height: 800,
+              alt: "faaris",
+              type: "image/jpeg",
+            },
+            { url: "https://faarismusic.com/heroImg.jpg" },
+            { url: "https://faarismusic.com/heroImg.jpg" },
+          ],
+          site_name: "Faaris Music",
+        }}
+        twitter={{
+          handle: "@faaris_mp3",
+          site: "@https://www.faarismusic.com/",
+          cardType: "summary_large_image",
+        }}
       />
       {/* <Head>
         <title>Create Next App</title>
