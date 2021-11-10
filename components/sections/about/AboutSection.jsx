@@ -12,6 +12,7 @@ export default function AboutSection() {
               <span style={{ color: "var(--pri-btnColor)" }}> rapper</span>, born and raised in
               Austin, TX. He broke into music scene with his first song{" "}
               <a
+                rel="noopener noreferrer"
                 style={{ textDecoration: "underline" }}
                 href="https://open.spotify.com/album/1lWSYvfg0ur3I5eNmghk8G"
               >

@@ -58,6 +58,7 @@ export default function Footer() {
             <ul className={s.footer__col_linksContainer}>
               <li className={s.footer__col_item}>
                 <a
+                  rel="noopener noreferrer"
                   href="https://www.instagram.com/faaris.mp3/?hl=en"
                   className={s.footer__col_link}
                 >
@@ -65,12 +66,17 @@ export default function Footer() {
                 </a>
               </li>
               <li className={s.footer__col_item}>
-                <a href="https://twitter.com/faaris_mp3" className={s.footer__col_link}>
+                <a
+                  rel="noopener noreferrer"
+                  href="https://twitter.com/faaris_mp3"
+                  className={s.footer__col_link}
+                >
                   Twitter
                 </a>
               </li>
               <li className={s.footer__col_item}>
                 <a
+                  rel="noopener noreferrer"
                   href="https://www.youtube.com/channel/UCWUJDpdUF7NC5HMj6k1s5gA"
                   className={s.footer__col_link}
                 >
@@ -78,12 +84,17 @@ export default function Footer() {
                 </a>
               </li>
               <li className={s.footer__col_item}>
-                <a href="https://soundcloud.com/faarismusic" className={s.footer__col_link}>
+                <a
+                  rel="noopener noreferrer"
+                  href="https://soundcloud.com/faarismusic"
+                  className={s.footer__col_link}
+                >
                   SoundCloud
                 </a>
               </li>
               <li className={s.footer__col_item}>
                 <a
+                  rel="noopener noreferrer"
                   href="https://music.apple.com/us/artist/faaris/1546574247"
                   className={s.footer__col_link}
                 >
@@ -92,6 +103,7 @@ export default function Footer() {
               </li>
               <li className={s.footer__col_item}>
                 <a
+                  rel="noopener noreferrer"
                   href="https://open.spotify.com/artist/2wi8Z4BaQWkxQ6W8u8Q6uq"
                   className={s.footer__col_link}
                 >
@@ -103,12 +115,17 @@ export default function Footer() {
           <div className={`${s.footer__col} ${s.footer__col_socials}`}>
             <ul className={s.footer__col_social}>
               <li className={s.footer__col_socialItem}>
-                <a href="https://twitter.com/faaris_mp3" className={s.footer__col_socialLink}>
+                <a
+                  rel="noopener noreferrer"
+                  href="https://twitter.com/faaris_mp3"
+                  className={s.footer__col_socialLink}
+                >
                   <Twitter className={s.footer__col_link} />
                 </a>
               </li>
               <li className={s.footer__col_socialItem}>
                 <a
+                  rel="noopener noreferrer"
                   href="https://www.instagram.com/faaris.mp3/?hl=en"
                   className={s.footer__col_socialLink}
                 >
@@ -117,6 +134,7 @@ export default function Footer() {
               </li>
               <li className={s.footer__col_socialItem}>
                 <a
+                  rel="noopener noreferrer"
                   href="https://www.youtube.com/channel/UCWUJDpdUF7NC5HMj6k1s5gA"
                   className={s.footer__col_socialLink}
                 >
@@ -125,6 +143,7 @@ export default function Footer() {
               </li>
               <li className={s.footer__col_socialItem}>
                 <a
+                  rel="noopener noreferrer"
                   href="https://open.spotify.com/artist/2wi8Z4BaQWkxQ6W8u8Q6uq"
                   className={s.footer__col_socialLink}
                 >
@@ -133,6 +152,7 @@ export default function Footer() {
               </li>
               <li className={s.footer__col_socialItem}>
                 <a
+                  rel="noopener noreferrer"
                   href="https://music.apple.com/us/artist/faaris/1546574247"
                   className={s.footer__col_socialLink}
                 >
@@ -141,6 +161,7 @@ export default function Footer() {
               </li>
               <li className={s.footer__col_socialItem}>
                 <a
+                  rel="noopener noreferrer"
                   href="https://soundcloud.com/faarismusic"
                   className={s.footer__col_socialLink}
                 >
