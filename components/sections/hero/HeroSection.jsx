@@ -1,4 +1,4 @@
-import { Instagram, Itunes, Soundcloud, Spotify, Twitter, Youtube } from "../../icons";
+import { Instagram, Itunes, Soundcloud, Spotify, Twitter, Youtube, Tiktok } from "../../icons";
 import s from "./HeroSection.module.css";
 
 export default function HeroSection() {
@@ -57,6 +57,11 @@ export default function HeroSection() {
               href="https://open.spotify.com/artist/2wi8Z4BaQWkxQ6W8u8Q6uq"
             >
               <Spotify className={s.socialIcon} />
+            </a>
+          </li>
+          <li className={s.socials__listItem}>
+            <a rel="noopener noreferrer" href="https://vm.tiktok.com/TTPdjbpmAh/">
+              <Tiktok className={s.socialIcon} />
             </a>
           </li>
         </ul>
