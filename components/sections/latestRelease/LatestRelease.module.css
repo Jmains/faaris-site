@@ -5,10 +5,14 @@
 
 .latest__title {
   padding-top: 2rem;
-  font-size: 2.75rem;
+  font-size: 3.5rem;
   font-weight: 700;
   background: linear-gradient(180deg, hsla(0, 0%, 100%, 1), hsla(0, 0%, 76%, 0.85));
   background-clip: text;
   color: transparent;
   text-align: center;
+}
+
+.latest__songContainer {
+  margin-top: 2rem;
 }

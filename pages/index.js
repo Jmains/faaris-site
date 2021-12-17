@@ -1,4 +1,5 @@
 import { NextSeo } from "next-seo";
+import Head from "next/head";
 import AboutSection from "../components/sections/about/AboutSection";
 import { DiscographySection } from "../components/sections/discography";
 import { HeroSection } from "../components/sections/hero";
@@ -41,12 +42,12 @@ export default function Home() {
           cardType: "summary_large_image",
         }}
       />
-      {/* <Head>
-        <title>Create Next App</title>
+      <Head>
         <link rel="icon" href="/favicon.ico" />
-      </Head> */}
+      </Head>
+
       <HeroSection />
-      {/* <LatestRelease /> */}
+      <LatestRelease />
       <DiscographySection />
       <AboutSection />
     </div>
