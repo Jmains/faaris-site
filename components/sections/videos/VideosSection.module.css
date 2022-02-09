@@ -1,0 +1,43 @@
+.videos__title {
+  font-size: 2.75rem;
+  font-weight: 700;
+  background: linear-gradient(180deg, hsla(0, 0%, 100%, 1), hsla(0, 0%, 76%, 0.85));
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+}
+
+.videos__vidContainer {
+  margin-top: 3rem;
+}
+
+.video {
+  display: block;
+  aspect-ratio: 16/9;
+  border: none;
+  width: 100%;
+  max-width: 40rem;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .videos__container {
+    padding-bottom: 5rem;
+  }
+  .videos__title {
+    padding-top: 4rem;
+    font-size: 3.25rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .videos__container {
+    padding-bottom: 7rem;
+  }
+
+  .videos__title {
+    font-size: 3.75rem;
+    padding-top: 5rem;
+  }
+}

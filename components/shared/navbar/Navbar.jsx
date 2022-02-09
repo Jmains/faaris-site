@@ -130,6 +130,20 @@ export default function Navbar() {
             <li className={s.nav__item}>
               <span
                 onClick={() => {
+                  scrollToElement("videosSection");
+                  handleNavToggle();
+                }}
+                role="menuitem"
+                className={s.nav__link}
+                href="/"
+                tabIndex="0"
+              >
+                Videos
+              </span>
+            </li>
+            <li className={s.nav__item}>
+              <span
+                onClick={() => {
                   scrollToElement("aboutSection");
                   handleNavToggle();
                 }}
@@ -143,7 +157,7 @@ export default function Navbar() {
                 About
               </span>
             </li>
-            <li className={s.nav__item}>
+            {/* <li className={s.nav__item}>
               <span
                 onClick={() => {
                   scrollToElement("discoSection");
@@ -156,21 +170,8 @@ export default function Navbar() {
               >
                 Tour
               </span>
-            </li>
-            <li className={s.nav__item}>
-              <span
-                onClick={() => {
-                  scrollToElement("discoSection");
-                  handleNavToggle();
-                }}
-                role="menuitem"
-                className={s.nav__link}
-                href="/"
-                tabIndex="0"
-              >
-                Videos
-              </span>
-            </li>
+            </li> */}
+
             <li className={s.nav__item}>
               <span
                 onClick={() => {
