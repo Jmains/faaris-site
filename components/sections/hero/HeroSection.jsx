@@ -72,8 +72,6 @@ export default function HeroSection() {
           >
             <Spotify color="#1DB954" height="2rem" width="2rem" />
           </a>
-          <p>Monthly Listeners</p>
-          <p>7,326</p>
         </div>
       </div>
     </div>
