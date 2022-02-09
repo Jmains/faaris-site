@@ -1,5 +1,6 @@
 import SongCard from "../../songCard/SongCard";
 import s from "./LatestRelease.module.css";
+
 export default function LatestRelease() {
   return (
     <div className={s.latest} id="latestReleaseSection">
@@ -14,9 +15,9 @@ export default function LatestRelease() {
 }
 
 const songs = {
-  img: "/blindCover.JPG",
+  img: "/damnSon.JPG",
   author: "Faaris",
-  title: "Blind",
-  alt: "Blind",
-  url: "https://open.spotify.com/track/3wh34i5NHe6JRKHwlvXNYW?si=ST60faXKQymMmRv8qSSElQ",
+  title: "DAMN SON",
+  alt: "Damn Son",
+  url: "https://open.spotify.com/track/6ycByjWt7QAvDDW8DkopRt?si=tPYdK_ZKSVifWhIMT4lyQQ",
 };

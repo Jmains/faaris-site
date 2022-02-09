@@ -63,4 +63,18 @@ const songs = [
     alt: "Hell Out There",
     url: "https://open.spotify.com/album/096skbNkoC4YUViSdFKwo4",
   },
+  {
+    img: "/blindCover.JPG",
+    author: "Faaris",
+    title: "BLIND",
+    alt: "Blind",
+    url: "https://open.spotify.com/track/3wh34i5NHe6JRKHwlvXNYW?si=ST60faXKQymMmRv8qSSElQ",
+  },
+  {
+    img: "/damnSon.JPG",
+    author: "Faaris",
+    title: "DAMN SON",
+    alt: "Damn Son",
+    url: "https://open.spotify.com/track/6ycByjWt7QAvDDW8DkopRt?si=tPYdK_ZKSVifWhIMT4lyQQ",
+  },
 ];

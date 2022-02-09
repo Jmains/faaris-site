@@ -65,14 +65,6 @@ export default function HeroSection() {
             </a>
           </li>
         </ul>
-        <div className={s.hero__spotifyStats}>
-          <a
-            rel="noopener noreferrer"
-            href="https://open.spotify.com/artist/2wi8Z4BaQWkxQ6W8u8Q6uq"
-          >
-            <Spotify color="#1DB954" height="2rem" width="2rem" />
-          </a>
-        </div>
       </div>
     </div>
   );
