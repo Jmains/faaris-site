@@ -1,176 +1,166 @@
 .hero {
-  height: 100vh;
-  width: 100%;
-  margin: 0 auto;
-  margin-top: -60px;
-  background-image: linear-gradient(
-      180deg,
-      #000000 6.25%,
-      rgba(0, 0, 0, 0.19) 55.21%,
-      #0b0b0b 100%
-    ),
-    url("/heroImg.jpg");
-  background-size: cover;
-  background-position: center center;
-  max-height: 55rem;
-  max-width: 1400px;
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -60px;
+    background-image: linear-gradient(180deg, #000000 6.25%, rgba(0, 0, 0, 0.19) 55.21%, #0b0b0b 100%),
+        url("/heroImg.webp");
+    background-size: cover;
+    background-position: center center;
+    max-height: 55rem;
+    max-width: 1400px;
 }
 
 .socials {
-  position: absolute;
-  top: 4.5rem;
-  right: 1.7rem;
+    position: absolute;
+    top: 4.5rem;
+    right: 1.7rem;
 }
 
 .socials__listItem {
-  margin-top: 1rem;
+    margin-top: 1rem;
 }
 
 .socialIcon {
-  height: 1.25rem;
-  width: 1.25rem;
-  color: rgb(173, 173, 173);
+    height: 1.25rem;
+    width: 1.25rem;
+    color: rgb(173, 173, 173);
 }
 
 .socialIcon:hover {
-  color: var(--pri-btnColor);
+    color: var(--pri-btnColor);
 }
 
 .hero__contentContainer {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-  height: 100vh;
-  /* background: #000; */
-  padding-bottom: 6rem;
-  max-width: 34rem;
-  margin: 0 auto;
-  max-height: 58rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    /* background: #000; */
+    padding-bottom: 6rem;
+    max-width: 34rem;
+    margin: 0 auto;
+    max-height: 58rem;
 }
 
 .hero__title {
-  font-size: 4rem;
-  font-weight: 600;
-  text-align: center;
-  color: rgb(238, 238, 238);
-  background: linear-gradient(180deg, #ffffff 30.21%, rgba(245, 245, 245, 0.25) 100%);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(238, 238, 238);
+    background: linear-gradient(180deg, #ffffff 30.21%, rgba(245, 245, 245, 0.25) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .hero__description {
-  font-size: 1.15rem;
-  color: rgb(173, 173, 173);
-  text-align: center;
-  margin-top: -1rem;
+    font-size: 1.15rem;
+    color: rgb(173, 173, 173);
+    text-align: center;
+    margin-top: -1rem;
 }
 
 .hero__btnsContainer {
-  margin-top: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 .hero__button {
-  background-color: var(--pri-btnColor);
-  font-size: 0.9rem;
-  padding: 0.65em 1.25em;
-  border-radius: 50px;
-  font-weight: 600;
-  color: white;
-  transition: background-color 150ms ease-in-out;
-  cursor: pointer;
+    background-color: var(--pri-btnColor);
+    font-size: 0.9rem;
+    padding: 0.65em 1.25em;
+    border-radius: 50px;
+    font-weight: 600;
+    color: white;
+    transition: background-color 150ms ease-in-out;
+    cursor: pointer;
 }
 
 .hero__button:hover {
-  background-color: hsl(349, 61%, 57%);
-  color: white;
+    background-color: hsl(349, 61%, 57%);
+    color: white;
 }
 
 .hero__learnBtn {
-  background-color: rgba(0, 0, 0, 0.46);
-  font-size: 0.9rem;
-  margin-left: 1.25rem;
-  padding: 0.63em 1.7em;
-  border-radius: 50px;
-  font-weight: 600;
-  border: 2px solid rgb(209, 209, 209);
-  color: rgb(201, 201, 201);
-  transition: background-color 150ms ease-in-out;
+    background-color: rgba(0, 0, 0, 0.46);
+    font-size: 0.9rem;
+    margin-left: 1.25rem;
+    padding: 0.63em 1.7em;
+    border-radius: 50px;
+    font-weight: 600;
+    border: 2px solid rgb(209, 209, 209);
+    color: rgb(201, 201, 201);
+    transition: background-color 150ms ease-in-out;
 }
 
 .hero__learnBtn:hover {
-  background-color: rgb(201, 201, 201);
-  color: black;
+    background-color: rgb(201, 201, 201);
+    color: black;
 }
 
 .hero__spotifyStats {
-  display: none;
-  visibility: hidden;
+    display: none;
+    visibility: hidden;
 }
 
 @media only screen and (min-width: 700px) {
-  .socials {
-    top: 12.5rem;
-  }
+    .socials {
+        top: 12.5rem;
+    }
 
-  .hero {
-    background-image: linear-gradient(360deg, #0b0b0b 1.36%, rgba(0, 0, 0, 0) 12.48%),
-      linear-gradient(90deg, #0b0b0b 2.15%, rgba(0, 0, 0, 0.205) 20.24%, #0b0b0b2a 35%),
-      linear-gradient(180deg, #0b0b0b 3.25%, rgba(0, 0, 0, 0.329) 20.21%, #0b0b0b2d 25%),
-      linear-gradient(
-        270deg,
-        #0b0b0b 3.38%,
-        rgba(0, 0, 0, 0.219) 20.3%,
-        rgba(0, 0, 0, 0.158) 25%
-      ),
-      url("/heroImg.jpg");
-  }
+    .hero {
+        background-image: linear-gradient(360deg, #0b0b0b 1.36%, rgba(0, 0, 0, 0) 12.48%),
+            linear-gradient(90deg, #0b0b0b 2.15%, rgba(0, 0, 0, 0.205) 20.24%, #0b0b0b2a 35%),
+            linear-gradient(180deg, #0b0b0b 3.25%, rgba(0, 0, 0, 0.329) 20.21%, #0b0b0b2d 25%),
+            linear-gradient(270deg, #0b0b0b 3.38%, rgba(0, 0, 0, 0.219) 20.3%, rgba(0, 0, 0, 0.158) 25%),
+            url("/heroImg.webp");
+    }
 }
 
 @media only screen and (min-width: 1024px) {
-  .hero__contentContainer {
-    display: block;
-    padding-top: 14rem;
-    max-width: 50rem;
-    position: absolute;
-    left: 1rem;
-  }
+    .hero__contentContainer {
+        display: block;
+        padding-top: 14rem;
+        max-width: 50rem;
+        position: absolute;
+        left: 1rem;
+    }
 
-  .socialIcon {
-    height: 1.45rem;
-    width: 1.45rem;
-  }
+    .socialIcon {
+        height: 1.45rem;
+        width: 1.45rem;
+    }
 
-  .hero__title {
-    font-size: 7rem;
-    text-align: left;
-    margin-left: -6px;
-  }
+    .hero__title {
+        font-size: 7rem;
+        text-align: left;
+        margin-left: -6px;
+    }
 
-  .hero__description {
-    font-size: 1.5rem;
-    margin-top: -2rem;
-    max-width: 40rem;
-    text-align: left;
-  }
+    .hero__description {
+        font-size: 1.5rem;
+        margin-top: -2rem;
+        max-width: 40rem;
+        text-align: left;
+    }
 
-  .hero__button {
-    font-size: 0.9rem;
-  }
+    .hero__button {
+        font-size: 0.9rem;
+    }
 
-  .hero__learnBtn {
-    font-size: 0.9rem;
-  }
+    .hero__learnBtn {
+        font-size: 0.9rem;
+    }
 
-  .hero__spotifyStats {
-    display: block;
-    visibility: visible;
-    position: absolute;
-    top: 40rem;
-    right: 1.5rem;
-    text-align: right;
-    text-transform: uppercase;
-    color: rgb(153, 153, 153);
-  }
+    .hero__spotifyStats {
+        display: block;
+        visibility: visible;
+        position: absolute;
+        top: 40rem;
+        right: 1.5rem;
+        text-align: right;
+        text-transform: uppercase;
+        color: rgb(153, 153, 153);
+    }
 }
