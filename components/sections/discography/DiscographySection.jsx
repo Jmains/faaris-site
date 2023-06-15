@@ -17,7 +17,7 @@ export default function DiscographySection() {
 
 const songs = [
     {
-        img: "/PresidentialCover.WEBP",
+        img: "/PresidentialCover.webp",
         author: "Faaris",
         title: "Presidential",
         alt: "Presidential",
@@ -53,21 +53,21 @@ const songs = [
         url: "https://open.spotify.com/album/1ArV2UbzEZzoQswezrVUgv",
     },
     {
-        img: "/HellOutThereCover.WEBP",
+        img: "/HellOutThereCover.webp",
         author: "Faaris",
         title: "Hell Out There",
         alt: "Hell Out There",
         url: "https://open.spotify.com/album/096skbNkoC4YUViSdFKwo4",
     },
     {
-        img: "/blindCover.WEBP",
+        img: "/blindCover.webp",
         author: "Faaris",
         title: "BLIND",
         alt: "Blind",
         url: "https://open.spotify.com/track/3wh34i5NHe6JRKHwlvXNYW?si=ST60faXKQymMmRv8qSSElQ",
     },
     {
-        img: "/damnSon.WEBP",
+        img: "/damnSon.webp",
         author: "Faaris",
         title: "DAMN SON",
         alt: "Damn Son",
